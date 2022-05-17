@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login page</title>
+</head>
+<body class="">
+    <nav>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Skills</li>
+            <li><a href="#"></a>Contact</li>
+            <li><a href="#"></a>Careers</li>
+        </ul>
+    </nav>
+
+
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="container  " >
+            <div class="row col-md-6 col-md-offset-3 bg-secondary mt-xxl-5 p-xl-5">
+                <div class="pane panel-primary">
+                    <div class="panel-heading text-center mb-5">
+                        <h1>REGISTRATION FORM</h1>
+                    </div>
+                    <div class="panel-body ">
+                        <form id="form" action="/" >
+                            <div class="formcontent mb-3">
+                                <label name="username"  class="form-label"  for="inputUsername" value="" ><i class="fa fa-user" aria-hidden="true"> Username</i></label>
+                                <input type="text" id="username" class="form-control" >  
+                                <div class="error"></div>
+                            </div>
+    
+                            <div class="formcontent mb-3">
+                                <label class="form-label" for="inputEmail" ><i class="fa fa-envelope" aria-hidden="true"> Email Address</i></label>
+                                <input type="email" id="email"  class="form-control" placeholder="example@gmail.com">  
+                                <div class="error"></div>   
+                            </div>
+    
+                            <div class="form-group mb-3">
+                                <label class="form-label" name="number"  for="inputPhoneNumber" ><i class="fa fa-phone" aria-hidden="true"></i> Phone number</label>
+                                <input type="number" id="number" class="form-control" required>
+                                <div class="error"></div>
+                            </div>
+    
+                            <div class="form-group mb-3">
+                                <label class="form-label" for="gender" >Gender</label>
+                                <select class="form-select" aria-label="Default select example" required>
+                                    <option selected></option>
+                                    <option value="1" class="form-select">Female</option>
+                                    <option value="2" class="form-select">Male</option>
+                                </select>
+                                <div class="error"></div>
+                            </div>                   
+    
+                            <div class="mb-3 form-group">
+                                <label class="form-label " for="inputPassword"></i> Password</label>
+                                <img src="./eye.svg" alt="eye" width="20" class="showPassword">
+                                <input type="password" class="form-control"  id="inputPassword" placeholder="Password" > 
+                                <div class="error"></div>
+                            </div>
+    
+                            <div class="mb-3 form-group">
+                                <label class="form-label" for="inputPassword"><i class="fa fa-lock" aria-hidden="true"></i> Comfirm Password</label>
+                                <input type="password" class="form-control"  id="comfirmPassword" placeholder="Comfirm password" > 
+                                <div class="error"></div>
+                            </div>
+    
+                            <button type="submit" id="submit" class="btn btn-primary btn-customized">SUBMIT</button>
+    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
